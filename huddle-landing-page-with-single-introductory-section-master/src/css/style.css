@@ -49,6 +49,10 @@ main {
     font-weight: 400;
     font-family: 'Poppins', sans-serif;
 }
+.btn-register:hover{
+    background-color: #e980e7;
+    color: #fff;
+}
 
 .icons-container {
     display: flex;
@@ -76,5 +80,17 @@ main {
 .fa-instagram,
 .fa-twitter {
     font-size: 18px;
+
+}
+
+
+.icons-container .icons:hover{
+    border: 1px solid #fa53c5;
+    
+    
+}
+
+.about .icons-container .icons:hover i {
+    color: #e758c2;
 
 }
