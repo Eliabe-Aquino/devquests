@@ -32,7 +32,6 @@ main {
 
 .about p {
     color: #fff;
-    padding: 20px 0;
     font-size: 18px;
     padding: 20px 11px 23px 52px;
     line-height: 27px;
@@ -63,7 +62,7 @@ main {
 
 }
 
-.about .icons-container .icons {
+.icons-container .icons {
     border: 1px solid #fff;
     display: flex;
     border-radius: 50%;
