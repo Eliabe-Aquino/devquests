@@ -11,7 +11,7 @@ main {
     padding: 55px 68px;
 }
 
-.logo img {
+.logo-container .logo{
     width: 219px;
     margin-bottom: 77px;
 }
