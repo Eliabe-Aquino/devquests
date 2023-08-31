@@ -1,0 +1,119 @@
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap');
+
+
+  body {
+      width: 100%;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Roboto', sans-serif;
+  }
+
+  main {
+      width: 800px;
+      height: 402px;
+      display: flex;
+      background-image: url(../images/bg-repeat.jpg);
+  }
+
+  .page {
+      display: flex;
+      align-items: center;
+      padding: 12px 50px;
+      gap: 60px;
+  }
+
+  .duvida .title {
+      text-transform: uppercase;
+      color: #fff;
+      font-size: 20px;
+      font-weight: 900;
+      margin-bottom: 11px;
+  }
+
+  .duvida .descricao {
+      color: #FFFfff;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      opacity: 0.9;
+  }
+
+  .formulario {
+      display: flex;
+      flex-direction: column;
+      width: 340px;
+      height: 378px;
+      padding: 20px;
+      background-color: #fff;
+  }
+
+  .formulario input,
+  textarea {
+      width: 298.013px;
+      height: 35.11px;
+      font-weight: 700;
+      font-size: 15px;
+      border-radius: 5px;
+      border: 2px solid #000;
+      background: #FFF;
+      padding: 10px;
+      opacity: 0.65;
+      margin-bottom: 15px;
+  }
+
+  .formulario .campo-preenchido {
+      color: #000;
+      font-weight: 400;
+      opacity: 1;
+      border: 2px solid #00C22B;
+  }
+
+  .formulario #mensagem {
+      height: 100px;
+      font-size: 17px;
+      font-family: 'Roboto', sans-serif;
+
+  }
+
+  .formulario #enviar {
+      background-color: #3bcc87;
+      color: #ffffff;
+      width: 298.013px;
+      height: 41.129px;
+      border: none;
+      cursor: pointer;
+  }
+  .formulario #enviar:hover{
+    box-shadow: 5px 5px 5px 1px #a5a5a5;
+    
+  }
+
+  .formulario p {
+      transform: translate(-5px, -10px);
+
+  }
+
+  .formulario span {
+      color: #F52E2E;
+      font-size: 8px;
+      font-weight: 400;
+      margin-bottom: 6px;
+      padding-left: 5px;
+      display: none;
+  }
+
+  .formulario .ativo{
+    display: block;
+  }
+
+.formulario .input-text.ativo{
+    margin: 0;
+    border: 2px solid #F52E2E;
+}
+
+.formulario .campos.ativo  {
+    transform: translate(-5px, -5px);
+    margin-bottom: 5px;
+}
