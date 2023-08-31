@@ -16,13 +16,13 @@ inputText.forEach(function (input) {
 inputSubmit.addEventListener('click', () => {
     inputText.forEach(function (input) {
        if(input.value === ""){
-        input.classList.add('ativo')
-        input.nextElementSibling.classList.add('ativo')
-        campoObrigatorio.classList.add('ativo')
+        input.classList.add('erro')
+        input.nextElementSibling.classList.add('erro')
+        campoObrigatorio.classList.add('obrigatorios')
        } else {
-        input.classList.remove('ativo')
-        input.nextElementSibling.classList.remove('ativo')
-        campoObrigatorio.classList.remove('ativo')
+        input.classList.remove('erro')
+        input.nextElementSibling.classList.remove('erro')
+        campoObrigatorio.classList.remove('obrigatorios')
        }
     })
 });
