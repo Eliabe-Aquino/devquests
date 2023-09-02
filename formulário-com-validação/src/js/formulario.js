@@ -1,7 +1,7 @@
 const inputText = document.querySelectorAll(".input-text")
 const inputSubmit = document.querySelector('#enviar')
 const campoObrigatorio = document.querySelector('.campos')
-console.log(campoObrigatorio);
+
 
 inputText.forEach(function (input) {
     input.addEventListener('change', () => {
@@ -26,5 +26,3 @@ inputSubmit.addEventListener('click', () => {
        }
     })
 });
-
-1
